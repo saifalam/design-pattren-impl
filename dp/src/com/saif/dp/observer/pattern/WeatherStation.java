@@ -20,5 +20,9 @@ public class WeatherStation {
         weatherData.setMeasurements(80,64,30.4f);
         weatherData.setMeasurements(82,70,29.7f);
         weatherData.setMeasurements(78,90,29.1f);
+
+        weatherData.removeObserver(statisticsDisplay);
+        System.out.println("========== After remove an object: =========");
+        weatherData.setMeasurements(71,70,27.1f);
     }
 }

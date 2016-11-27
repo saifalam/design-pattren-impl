@@ -12,8 +12,8 @@ public class ForecastDispaly implements Observer, DispalyElement {
     private float pressure;
     private Subject weatherData;
 
-    public ForecastDispaly(Subject weatherData) {
-        this.weatherData = weatherData;
+    public ForecastDispaly(Subject subject) {
+        this.weatherData = subject;
         weatherData.addObserver(this);
     }
 

@@ -5,5 +5,5 @@ package com.saif.dp.observer.pattern.observers;
  */
 public interface DispalyElement {
 
-    public abstract void dispaly();
+    void dispaly();
 }

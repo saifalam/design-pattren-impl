@@ -29,7 +29,6 @@ public class WeatherData implements Subject {
         if(index >= 0) {
             observars.remove(index);
         }
-
     }
 
     @Override
@@ -43,6 +42,7 @@ public class WeatherData implements Subject {
     public void measurementChanged(){
         notifyObserver();
     }
+
     public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;

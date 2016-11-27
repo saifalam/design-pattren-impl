@@ -12,8 +12,8 @@ public class StatisticsDisplay implements Observer, DispalyElement {
     private float pressure;
     private Subject weatherData;
 
-    public StatisticsDisplay(Subject weatherData) {
-        this.weatherData = weatherData;
+    public StatisticsDisplay(Subject subject) {
+        this.weatherData = subject;
         weatherData.addObserver(this);
     }
 

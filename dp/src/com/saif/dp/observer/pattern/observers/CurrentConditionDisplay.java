@@ -12,8 +12,8 @@ public class CurrentConditionDisplay implements  Observer, DispalyElement {
     private float pressure;
     private Subject weatherData;
 
-    public CurrentConditionDisplay(Subject weatherData) {
-        this.weatherData = weatherData;
+    public CurrentConditionDisplay(Subject subject) {
+        this.weatherData = subject;
         weatherData.addObserver(this);
     }
 

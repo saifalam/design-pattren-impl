@@ -7,7 +7,7 @@ import com.saif.dp.observer.pattern.observers.Observer;
  */
 public interface Subject {
 
-    public abstract void addObserver(Observer ob);
-    public abstract void removeObserver(Observer ob);
-    public abstract void notifyObserver();
+    void addObserver(Observer ob);
+    void removeObserver(Observer ob);
+    void notifyObserver();
 }
