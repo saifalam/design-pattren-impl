@@ -1,4 +1,6 @@
-package com.saif.dp.observer.pattern;
+package com.saif.dp.observer.pattern.observers;
+
+import com.saif.dp.observer.pattern.subject.Subject;
 
 /**
  * Created by saif on 27.11.16.

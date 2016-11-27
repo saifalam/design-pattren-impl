@@ -1,4 +1,6 @@
-package com.saif.dp.observer.pattern;
+package com.saif.dp.observer.pattern.subject;
+
+import com.saif.dp.observer.pattern.observers.Observer;
 
 import java.util.ArrayList;
 

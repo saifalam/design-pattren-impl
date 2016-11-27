@@ -1,9 +1,9 @@
-package com.saif.dp.observer.pattern;
+package com.saif.dp.observer.pattern.observers;
 
 /**
  * Created by saif on 27.11.16.
  */
-public class StatisticsDisplay implements Observer, DispalyElement {
+public class CurrentConditionDisplay implements  Observer, DispalyElement {
 
     @Override
     public void update(float temperature, float humidity, float pressure) {
