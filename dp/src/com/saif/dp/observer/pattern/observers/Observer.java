@@ -5,5 +5,5 @@ package com.saif.dp.observer.pattern.observers;
  */
 public interface Observer {
 
-    public abstract void update( float temperature, float humidity, float pressure);
+    public void update( float temperature, float humidity, float pressure);
 }
